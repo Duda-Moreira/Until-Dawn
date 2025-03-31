@@ -1,0 +1,83 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    color: rgb(212, 0, 0);
+    line-height: 1px;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 5em;
+    word-spacing: 5px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    color: rgb(255, 52, 52);
+}
+
+main {
+    margin-top: 4em;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: orange;
+}
+
+#btn-start {
+    font-size: 12px;
+    padding: 10px 0;
+    width: 25%;
+    height: 15%;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    border-radius: 25px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#btn-start:hover {
+    transform: scale(1.1);
+    background-color: darkred;
+    color: darkgrey;
+}
+
+#restart {
+    color: whitesmoke;
+    transition-duration: 0.5;
+    text-decoration: none;
+}
+
+#restart:hover {
+    transform: scale(1.2);
+    color: rgb(255, 52, 52);
+    font-size: larger;
+}
+
+#botoes-controladores {
+    
+}

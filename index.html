@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jogo de Escolhas - Until Dawn</title>
+</head>
+<body>
+    <header>
+        <h1>Until Dawn</h1>
+        <h3>Memento Mori.</h3>
+    </header>
+
+    <main class="container-principal">
+        <span id="desenrolar-historia">
+            <p id="paragrafo-principal">
+                Você e seus amigos decidiram passar o fim de semana em uma antigo chalé nas montanhas.
+                <br>
+                Uma tempestade de neve inesperada isola vocês do resto do mundo. 
+                <br>
+                Durante a noite, um grito ecoa pela floresta.
+                <br><br><br>
+                Oito amigos, um assassino, sem saída. Viver ou morrer. A escolha é sua
+            </p>
+
+            <p id="paragrafo-desafio"></p>
+        </span>
+
+        <button id="btn-start" onclick="primeiraFase()">START</button>
+
+        <div class="botoes-controladores">
+            <button id="btnUm">RESPOSTA 1</button>
+            <button id="btnDois">RESPOSTA 2</button>
+        </div>
+
+        <a id="restart" href="">RESTART</a>
+    </main>
+    <script src="./js/jogo.js"></script>
+</body>
+</html>
